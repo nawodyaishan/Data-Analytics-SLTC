@@ -1,9 +1,7 @@
-
-
 # Simple arithmetic operations
 
-variable_1 = 10
-variable_2 = 20
+variable_1 <- 10
+variable_2 <- 20
 sum(variable_1, variable_2)
 
 
@@ -28,7 +26,7 @@ names(marks) <- c("Mathematics", "Science", "English")
 
 A_vector <- c(1, 2, 4)
 B_vector <- c(3, 5, 2)
-total_vector = A_vector + B_vector
+total_vector <- A_vector + B_vector
 
 total_vector
 
@@ -54,13 +52,13 @@ for (num1 in 1:100) {
 
 vector_1 <- c(20, 30, 58, 45, 67, 92, 50, 90, 45)
 
-A = matrix(vector_1,
+A <- matrix(vector_1,
 
-           nrow = 3,
+            nrow = 3,
 
-           ncol = 3,
+            ncol = 3,
 
-           byrow = TRUE)
+            byrow = TRUE)
 
 rownames(A) = c("R1", "R2", "R3")
 
@@ -86,7 +84,10 @@ stationary.data <- data.frame(
 
 print(stationary.data)
 
+# Basic scatter plots
 
+data(mtcars)
+head(mtcars)
 
 
 
