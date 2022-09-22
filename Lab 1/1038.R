@@ -90,7 +90,7 @@ data(mtcars)
 head(mtcars)
 
 
-
+ggplot(mtcars, aes(drat, mpg)) + geom_point()
 
 
 
